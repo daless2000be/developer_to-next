@@ -1,8 +1,18 @@
+import Link from "next/link"
 
 
 const HomePage = ()=>{
   return(
-    <h1>Home page</h1>
+    <div>
+         <h2>Home page</h2>
+
+       <Link href="/tickets" className="underline">
+       Go To Tickets
+       </Link>
+
+      
+    </div>
+   
 
     )
 }
