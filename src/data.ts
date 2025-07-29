@@ -6,13 +6,19 @@ export const initialTickets = [
     id:"1",
     title:"ticket 1",
     content:"this is first ticket",
-    status:"DONE"
+    status:"DONE" as const,
 
 },
  {
       id:"2",
     title:"ticket 2",
     content:"this is second ticket",
-    status:"OPEN"
+    status:"OPEN" as const,
+ },
+ {
+  id:"3",
+  title:"Ticket 3",
+  content:"This is the third ticket",
+  status:"IN_PROGRESS" as const,
  }
 ]
