@@ -1,5 +1,3 @@
-//update github
-
 import Link from "next/link";
 import { ticketsPath } from "@/paths";
 

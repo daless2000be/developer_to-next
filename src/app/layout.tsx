@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css"
 import Link from "next/link";
 import { Inter } from "next/font/google";
+import "./globals.css";
 import { homePath, ticketsPath } from "@/paths";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,11 +21,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <nav
           className="
-          supports-backdrop-blur:bg-background/60
-          fixed left-0 right-0 top-0 z-20
-          border-b bg-background/95 backdrop-blur
-          w-full flex py-2.5 px-5 justify-between
-        "
+            supports-backdrop-blur:bg-background/60
+            fixed left-0 right-0 top-0 z-20
+            border-b bg-background/95 backdrop-blur
+            w-full flex py-2.5 px-5 justify-between
+          "
         >
           <div>
             <Link href={homePath()} className="text-lg font-bold">
